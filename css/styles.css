@@ -1,4 +1,7 @@
 /* Your Website Styles */
+img {
+  max-height: 100%;
+}
 /* Gallery Stying */
 .gallery .control-button {
   color: #ccc;
@@ -15,10 +18,10 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  height: 1000px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+  background: black;
 }
 .gallery .controls {
   position: absolute;

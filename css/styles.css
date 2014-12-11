@@ -1,6 +1,17 @@
 /* Your Website Styles */
 img {
   max-height: 100%;
+  max-width: 100%
+}
+h1 {
+  font-family: "Futura Std", "Futura Std Regular", "Open Sans", sans-serif;
+  margin: 0;
+  padding: 15px;
+}
+p {
+  font-family: 'Droid Serif', serif;
+  margin: 0;
+  padding: 0 15px 15px 15px;
 }
 /* Gallery Stying */
 .gallery .control-button {
@@ -24,7 +35,7 @@ img {
   background: black;
 }
 .gallery .controls {
-  position: absolute;
+  position: static;
   bottom: -120px;
   width: 100%;
   text-align: center;
@@ -34,11 +45,14 @@ img {
 }
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
+  margin: 0 .15em;
   font-size: 3em;
   text-align: center;
   text-decoration: none;
-  transition: color .1s;
+  transition: transform 1s;
+}
+.control-button:hover {
+  transform: scale(1.25);
 }
 /* Show Grid */
 .showgrid {
